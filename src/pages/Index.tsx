@@ -33,16 +33,15 @@ const Index: React.FC = () => {
             </p>
             
             <div className="pt-12 flex justify-center animate-fade-in" style={{animationDelay: '0.6s'}}>
-              <Link to="/course">
-                <TransitionButton 
-                  glow={true} 
-                  variant="ruby"
-                  className="group"
-                >
-                  <span>Войти в пространство</span>
-                  <span className="ml-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">↓</span>
-                </TransitionButton>
-              </Link>
+              <TransitionButton 
+                to="/course"
+                glow={true} 
+                variant="ruby"
+                className="group"
+              >
+                <span>Войти в пространство</span>
+                <span className="ml-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">↓</span>
+              </TransitionButton>
             </div>
           </div>
         </section>

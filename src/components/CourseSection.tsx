@@ -19,7 +19,7 @@ const CourseSection: React.FC = () => {
           намерение и связь с пространством вариантов. Курс от практиков Трансерфинга.
         </p>
         <div className="pt-8 flex justify-center">
-          <TransitionButton glow={true} variant="default" className="group">
+          <TransitionButton to="/course" glow={true} variant="default" className="group">
             <span>Забронировать место</span>
             <span className="ml-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">→</span>
           </TransitionButton>

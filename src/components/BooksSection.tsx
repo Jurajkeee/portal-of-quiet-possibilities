@@ -62,7 +62,7 @@ const BooksSection: React.FC = () => {
         </div>
         
         <div className="flex justify-center pt-8">
-          <TransitionButton>
+          <TransitionButton to="/books">
             Смотреть все книги
           </TransitionButton>
         </div>

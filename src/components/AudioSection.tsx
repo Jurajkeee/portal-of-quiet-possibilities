@@ -37,7 +37,7 @@ const AudioSection: React.FC = () => {
         </div>
         
         <div className="flex justify-center pt-6">
-          <TransitionButton>
+          <TransitionButton to="/audio">
             Все аудиоматериалы
           </TransitionButton>
         </div>
