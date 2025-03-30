@@ -58,7 +58,9 @@ export default {
 					foreground: '#E5DEFF',
 					accent: '#D6BCFA',
 					muted: '#8E9196',
-					glow: '#6E52C3'
+					glow: '#6E52C3',
+					amber: '#F97316',    // новый оранжево-янтарный акцент
+					ruby: '#ea384c'      // новый рубиновый акцент
 				}
 			},
 			fontFamily: {

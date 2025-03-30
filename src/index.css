@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
 
 @tailwind base;
@@ -66,13 +65,17 @@
     @apply bg-gradient-to-b from-cosmic-accent/10 via-cosmic-accent/5 to-transparent;
   }
   
+  .amber-gradient {
+    @apply bg-gradient-to-br from-cosmic/90 via-cosmic to-cosmic-amber/5;
+  }
+  
   .section-spacing {
     @apply py-24 md:py-32;
   }
   
   .cosmic-button {
-    @apply rounded-full py-3 px-8 bg-cosmic-accent/10 hover:bg-cosmic-accent/20 border border-cosmic-accent/20 
-           hover:border-cosmic-accent/40 transition-all duration-300 backdrop-blur-md shadow-lg 
-           text-sm font-light tracking-wide text-cosmic-foreground flex items-center justify-center space-x-2;
+    @apply rounded-full py-3 px-8 backdrop-blur-md shadow-lg 
+           text-sm font-light tracking-wide text-cosmic-foreground flex items-center justify-center space-x-2
+           transition-all duration-300;
   }
 }

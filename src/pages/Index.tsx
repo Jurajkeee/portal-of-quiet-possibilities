@@ -33,6 +33,7 @@ const Index: React.FC = () => {
               <TransitionButton 
                 glow={true} 
                 href="#course"
+                variant="ruby"
                 className="group"
               >
                 <span>Войти в пространство</span>
