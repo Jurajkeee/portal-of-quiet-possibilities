@@ -30,7 +30,7 @@ const TransitionButton: React.FC<TransitionButtonProps> = ({
         variant === 'default' && 'bg-cosmic-accent/10 hover:bg-cosmic-accent/20 border-cosmic-accent/20 hover:border-cosmic-accent/40',
         variant === 'amber' && 'bg-cosmic-amber/10 hover:bg-cosmic-amber/20 border-cosmic-amber/20 hover:border-cosmic-amber/40 text-cosmic-amber/90',
         variant === 'ruby' && 'bg-cosmic-ruby/10 hover:bg-cosmic-ruby/20 border-cosmic-ruby/20 hover:border-cosmic-ruby/40 text-cosmic-ruby/90',
-        glow && variant === 'default' && 'shadow-[0_0_15px_rgba(214,188,250,0.3)]',
+        glow && variant === 'default' && 'shadow-[0_0_15px_rgba(30,129,243,0.4)]',
         glow && variant === 'amber' && 'shadow-[0_0_15px_rgba(249,115,22,0.3)]',
         glow && variant === 'ruby' && 'shadow-[0_0_15px_rgba(234,56,76,0.3)]',
         className

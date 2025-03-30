@@ -56,11 +56,11 @@ export default {
 				cosmic: {
 					DEFAULT: '#1A1F2C',
 					foreground: '#E5DEFF',
-					accent: '#D6BCFA',
+					accent: '#1E81F3',    // new blue accent color
 					muted: '#8E9196',
-					glow: '#6E52C3',
-					amber: '#F97316',    // новый оранжево-янтарный акцент
-					ruby: '#ea384c'      // новый рубиновый акцент
+					glow: '#1E81F3',      // also update glow color
+					amber: '#F97316',     // keep amber color
+					ruby: '#ea384c'       // keep ruby color
 				}
 			},
 			fontFamily: {
@@ -95,6 +95,11 @@ export default {
 				'fade-in': {
 					'0%': { opacity: '0', transform: 'translateY(10px)' },
 					'100%': { opacity: '1', transform: 'translateY(0)' }
+				},
+				'wave': {
+					'0%': { transform: 'translateX(0) translateZ(0) scaleY(1)' },
+					'50%': { transform: 'translateX(-25%) translateZ(0) scaleY(0.8)' },
+					'100%': { transform: 'translateX(-50%) translateZ(0) scaleY(1)' }
 				}
 			},
 			animation: {
@@ -103,7 +108,8 @@ export default {
 				'float': 'float 6s ease-in-out infinite',
 				'pulse-glow': 'pulse-glow 4s ease-in-out infinite',
 				'star-twinkle': 'star-twinkle 3s ease-in-out infinite',
-				'fade-in': 'fade-in 0.8s ease-out'
+				'fade-in': 'fade-in 0.8s ease-out',
+				'wave': 'wave 15s ease-in-out infinite linear'
 			}
 		}
 	},
