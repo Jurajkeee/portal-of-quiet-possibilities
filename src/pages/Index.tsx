@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 import StarfieldBackground from '@/components/StarfieldBackground';
 import ParallaxSeaBackground from '@/components/ParallaxSeaBackground';
 import Header from '@/components/Header';
@@ -32,15 +33,16 @@ const Index: React.FC = () => {
             </p>
             
             <div className="pt-12 flex justify-center animate-fade-in" style={{animationDelay: '0.6s'}}>
-              <TransitionButton 
-                glow={true} 
-                href="#course"
-                variant="ruby"
-                className="group"
-              >
-                <span>Войти в пространство</span>
-                <span className="ml-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">↓</span>
-              </TransitionButton>
+              <Link to="/course">
+                <TransitionButton 
+                  glow={true} 
+                  variant="ruby"
+                  className="group"
+                >
+                  <span>Войти в пространство</span>
+                  <span className="ml-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">↓</span>
+                </TransitionButton>
+              </Link>
             </div>
           </div>
         </section>
